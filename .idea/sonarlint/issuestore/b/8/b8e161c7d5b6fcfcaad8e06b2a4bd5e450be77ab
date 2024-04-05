@@ -1,0 +1,19 @@
+
+:php:S113"'Add a new line at the end of this file.8ÛĞ½ÀÑ1
+K	php:S1481"/Remove this unused "$pageTitle" local variable.(‚‰Í8ÜĞ½ÀÑ1
+P	php:S1481%"/Remove this unused "$pageTitle" local variable.(‚Ú†Õşÿÿÿÿ8ÛĞ½ÀÑ1
+P	php:S1481*"/Remove this unused "$pageTitle" local variable.(ÔãŒøÿÿÿÿ8ÜĞ½ÀÑ1
+Q	php:S14819"0Remove this unused "$loginError" local variable.(øŠØÖûÿÿÿÿ8ÛĞ½ÀÑ1
+K	php:S1481:"/Remove this unused "$pageTitle" local variable.(‚‰Í8ÜĞ½ÀÑ1
+B	php:S2003 "&Replace "require" with "require_once".(ØŸŸ¯8ÜĞ½ÀÑ1
+G	php:S2003&"&Replace "require" with "require_once".(ÿ×Ğªúÿÿÿÿ8ÜĞ½ÀÑ1
+G	php:S2003+"&Replace "require" with "require_once".(·Î•Ôøÿÿÿÿ8ÜĞ½ÀÑ1
+B	php:S2003;"&Replace "require" with "require_once".(ØŸŸ¯8ÜĞ½ÀÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(û¸ç”ùÿÿÿÿ8ÜĞ½ÀÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ä¶ùöøÿÿÿÿ8ÜĞ½ÀÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒ¶¹•ÿÿÿÿÿ8ÜĞ½ÀÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ğ»Ç±øÿÿÿÿ8ÜĞ½ÀÑ1
+h	php:S4833 "LReplace "require" with namespace import mechanism through the "use" keyword.(ØŸŸ¯8ÜĞ½ÀÑ1
+m	php:S4833&"LReplace "require" with namespace import mechanism through the "use" keyword.(ÿ×Ğªúÿÿÿÿ8ÜĞ½ÀÑ1
+m	php:S4833+"LReplace "require" with namespace import mechanism through the "use" keyword.(·Î•Ôøÿÿÿÿ8ÜĞ½ÀÑ1
+h	php:S4833;"LReplace "require" with namespace import mechanism through the "use" keyword.(ØŸŸ¯8ÜĞ½ÀÑ1

@@ -1,0 +1,20 @@
+
+mphp:S101"RRename class "usercontroller" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(º˜Ñ8áßòÃÑ1
+:php:S113"'Add a new line at the end of this file.8áßòÃÑ1
+P	php:S1481("/Remove this unused "$pageTitle" local variable.(‚Ú†Õşÿÿÿÿ8áßòÃÑ1
+K	php:S1481""/Remove this unused "$pageTitle" local variable.(‚‰Í8áßòÃÑ1
+P	php:S1481."/Remove this unused "$pageTitle" local variable.(ÔãŒøÿÿÿÿ8áßòÃÑ1
+Q	php:S1481>"0Remove this unused "$loginError" local variable.(øŠØÖûÿÿÿÿ8áßòÃÑ1
+K	php:S1481?"/Remove this unused "$pageTitle" local variable.(‚‰Í8áßòÃÑ1
+G	php:S2003#"&Replace "require" with "require_once".(º·ÇÃşÿÿÿÿ8áßòÃÑ1
+B	php:S2003)"&Replace "require" with "require_once".(ù¸°†8áßòÃÑ1
+G	php:S2003/"&Replace "require" with "require_once".(·Î•Ôøÿÿÿÿ8áßòÃÑ1
+B	php:S2003@"&Replace "require" with "require_once".(ØŸŸ¯8áßòÃÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(û¸ç”ùÿÿÿÿ8áßòÃÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ä¶ùöøÿÿÿÿ8áßòÃÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒ¶¹•ÿÿÿÿÿ8áßòÃÑ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ğ»Ç±øÿÿÿÿ8áßòÃÑ1
+m	php:S4833#"LReplace "require" with namespace import mechanism through the "use" keyword.(º·ÇÃşÿÿÿÿ8áßòÃÑ1
+h	php:S4833)"LReplace "require" with namespace import mechanism through the "use" keyword.(ù¸°†8áßòÃÑ1
+m	php:S4833/"LReplace "require" with namespace import mechanism through the "use" keyword.(·Î•Ôøÿÿÿÿ8áßòÃÑ1
+h	php:S4833@"LReplace "require" with namespace import mechanism through the "use" keyword.(ØŸŸ¯8áßòÃÑ1

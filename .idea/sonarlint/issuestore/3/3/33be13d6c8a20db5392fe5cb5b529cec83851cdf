@@ -1,0 +1,20 @@
+
+nphp:S101"TRename class "recipecontroller" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(²ñ8‚ı™¾Ñ1
+:php:S113"'Add a new line at the end of this file.8ƒı™¾Ñ1
+	php:S1488"`Immediately return this expression instead of assigning it to the temporary variable "$recipes".(ñùğ¿ıÿÿÿÿ8ƒı™¾Ñ1
+	php:S1488""`Immediately return this expression instead of assigning it to the temporary variable "$recipes".(²Œì„şÿÿÿÿ8ƒı™¾Ñ1
+€	php:S1488'"_Immediately return this expression instead of assigning it to the temporary variable "$recipe".(¨¼†õÿÿÿÿÿ8ƒı™¾Ñ1
+P	php:S1481/"/Remove this unused "$pageTitle" local variable.(´Û™íüÿÿÿÿ8ƒı™¾Ñ1
+P	php:S1481+"/Remove this unused "$pageTitle" local variable.(Œ¿²ˆùÿÿÿÿ8ƒı™¾Ñ1
+P	php:S14813"/Remove this unused "$pageTitle" local variable.(áğ®—şÿÿÿÿ8ƒı™¾Ñ1
+A	php:S2003,"&Replace "require" with "require_once".(Ùó§t8ƒı™¾Ñ1
+G	php:S20030"&Replace "require" with "require_once".(’“Ëİşÿÿÿÿ8ƒı™¾Ñ1
+B	php:S20034"&Replace "require" with "require_once".(ÕÍáÀ8ƒı™¾Ñ1
+r	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒ¶¹•ÿÿÿÿÿ8„ı™¾Ñ1
+r	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ğ»Ç±øÿÿÿÿ8„ı™¾Ñ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(¬ÍÊ¼8„ı™¾Ñ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(–¨Íùÿÿÿÿ8„ı™¾Ñ1
+g	php:S4833,"LReplace "require" with namespace import mechanism through the "use" keyword.(Ùó§t8„ı™¾Ñ1
+m	php:S48330"LReplace "require" with namespace import mechanism through the "use" keyword.(’“Ëİşÿÿÿÿ8„ı™¾Ñ1
+h	php:S48334"LReplace "require" with namespace import mechanism through the "use" keyword.(ÕÍáÀ8„ı™¾Ñ1

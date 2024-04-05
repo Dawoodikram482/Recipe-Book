@@ -1,0 +1,32 @@
+nav.custom-navbar {
+    background-color: #58595a !important;
+    height: 90px;
+    margin: 0;
+}
+/*.logo {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+.navbar-brand img {
+    width: 100px;
+}
+.recipe-card{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #007589;
+    color: #fff;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: all 0.3s;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.recipe-buttons button {
+    margin: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}

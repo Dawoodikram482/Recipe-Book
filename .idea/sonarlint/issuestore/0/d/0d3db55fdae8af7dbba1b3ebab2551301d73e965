@@ -1,0 +1,11 @@
+
+kphp:S103&"KSplit this 173 characters long line (which is greater than 120 authorized).(í¤ù§ûÿÿÿÿ8â±ú¦Ñ1
+ophp:S101"TRename class "reciperepository" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(øÅ€Ó8ã±ú¦Ñ1
+:php:S113"'Add a new line at the end of this file.8ã±ú¦Ñ1
+{	php:S1488"`Immediately return this expression instead of assigning it to the temporary variable "$recipes".(âë¤*8ã±ú¦Ñ1
+{	php:S1488!"`Immediately return this expression instead of assigning it to the temporary variable "$recipes".(âë¤*8ã±ú¦Ñ1
+€	php:S1488:"_Immediately return this expression instead of assigning it to the temporary variable "$recipe".(¬ø¹Óşÿÿÿÿ8áÌº«Ñ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(û¸ç”ùÿÿÿÿ8ã±ú¦Ñ1
+m	php:S4833	"QReplace "require_once" with namespace import mechanism through the "use" keyword.(¬ÍÊ¼8ã±ú¦Ñ1
+r	php:S4833
+"QReplace "require_once" with namespace import mechanism through the "use" keyword.(–¨Íùÿÿÿÿ8ã±ú¦Ñ1
