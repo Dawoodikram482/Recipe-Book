@@ -11,8 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 deleteRecipe(recipeId);
 
             }
-        }
-        else if (editButton) {
+        } else if (editButton) {
             const recipeId = editButton.id.replace('editRecipeBtn_', '');
             window.location.href = `editrecipe?id=${recipeId}`;
         }
@@ -32,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
- function fetchRecipesByCategory(category) {
+function fetchRecipesByCategory(category) {
     fetch(`api/fetchApi/fetch?category=${encodeURIComponent(category)}`)
         .then(response => response.text())
         .then(responseText => {
@@ -43,6 +42,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     document.getElementById('recipeContainer').insertAdjacentHTML('beforeend', createRecipeHtml(recipe));
                 });
             } catch (jsonError) {
+                document.getElementById('searchAlert').innerHTML = `
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        Category not found. Please try again.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                `;
                 console.error("Error parsing JSON response: ", jsonError);
             }
         })
@@ -52,9 +57,9 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 
 function createRecipeHtml(recipe) {
-    const categories = recipe.Category ? recipe.Category.split('\r\n') : [];
-    const ingredients = recipe.Ingredients ? recipe.Ingredients.split('\r\n') : [];
-    const preparationSteps = recipe.Instructions ? recipe.Instructions.split('\r\n') : [];
+    const categories = recipe.Category ? recipe.Category.split('\n') : [];
+    const ingredients = recipe.Ingredients ? recipe.Ingredients.split('\n') : [];
+    const preparationSteps = recipe.Instructions ? recipe.Instructions.split('\n') : [];
 
     const categoriesHtml = categories.map(category => `<span class="category text-black">${category}</span>`).join(' ');
     const ingredientsHtml = ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
@@ -66,32 +71,32 @@ function createRecipeHtml(recipe) {
 
     return `
         <div class="recipe-card row mb-4">
-            <div class="col-sm-6">
-                <div class="recipe-image">
-                    <img src="/images/${recipe.Image || ''}" class="card-img-top" alt="Recipe Image" style="width: 50%; height: 400px; object-fit: cover;">
-                </div>
+    <div class="col-sm-6">
+        <div class="recipe-image">
+            <img src="/images/${recipe.Image || ''}" class="card-img-top" alt="Recipe Image">
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="recipe-details">
+            <div class="recipe-description">
+                <h4 class="card-title">${recipe.RecipeTitle || ''}</h4>
             </div>
-            <div class="col-sm-6">
-                <div class="recipe-details">
-                    <div class="recipe-description">
-                        <h4 class="card-title">${recipe.RecipeTitle || ''}</h4>
-                        <p class="card-categories">Categories: ${categoriesHtml}</p>
-                    </div>
-                    <div class="recipe-ingredients">
-                        <h5>Ingredients:</h5>
-                        <p>${ingredientsHtml}</p>
-                    </div>
-                    <div class="recipe-preparation-steps">
-                        <h5>Preparation Steps:</h5>
-                        <p>${preparationStepsHtml}</p>
-                    </div>
-                    <div class="recipe-buttons">
-                        ${buttonsHtml}
-                    </div>
-                </div>
+            <div class="recipe-ingredients">
+                <h5>Ingredients:</h5>
+                <p>${ingredientsHtml}</p>
             </div>
-        </div>`;
+            <div class="recipe-preparation-steps">
+                <h5>Preparation Steps:</h5>
+                <p>${preparationStepsHtml}</p>
+            </div>
+            <div class="recipe-buttons">
+                ${buttonsHtml}
+            </div>
+        </div>
+    </div>
+</div>`;
 }
+
 function deleteRecipe(recipeId) {
     fetch(`api/deleteApi/delete?RecipeId=${recipeId}`, {
         method: 'DELETE',

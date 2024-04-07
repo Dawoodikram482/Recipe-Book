@@ -2,10 +2,12 @@
 <div class="container mt-4">
     <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
     <div class="p-4 rounded">
+        <div id="searchAlert"></div>
         <h1 class="mb-3">Welcome to Recipe Book</h1>
         <h3 class="mb-4">You can search recipes by entering name of category</h3>
         <p>Categories: </p>
-        <ol><li>Breakfast</li>
+        <ol>
+            <li>Breakfast</li>
             <li>Lunch</li>
             <li>Dinner</li>
         </ol>
@@ -22,4 +24,4 @@
     </div>
 </div>
 <script src="/javascript/recipeCategory.js"></script>
-<?php include __DIR__ .'/footer.php'; ?>
+<?php include __DIR__ . '/footer.php'; ?>

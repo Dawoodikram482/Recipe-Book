@@ -34,7 +34,6 @@ function createRecipe() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                // Recipe created successfully, handle UI update as needed
                 console.log('Recipe created successfully');
                 document.getElementById("newRecipeForm").reset();
                 document.getElementById('createRecipeAlert').innerHTML = `
@@ -45,7 +44,6 @@ function createRecipe() {
                 `;
 
             } else {
-                // Handle creation failure
                 console.error('Failed to create recipe:', data.error);
                 document.getElementById('createRecipeAlert').innerHTML = `
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -56,7 +54,6 @@ function createRecipe() {
             }
         })
         .catch(error => {
-            // Handle fetch error
             console.error('Error during fetch:', error);
             document.getElementById('createRecipeAlert').innerHTML = `
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">

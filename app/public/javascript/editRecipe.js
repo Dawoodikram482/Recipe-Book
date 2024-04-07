@@ -33,17 +33,14 @@ function editRecipe() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                // Recipe edited successfully, show success alert
                 document.getElementById('editRecipeAlert').innerHTML = `
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         Recipe edited successfully.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 `;
-                // Optionally, update UI as needed
                 console.log('Recipe edited successfully');
             } else {
-                // Editing failure, show error alert
                 document.getElementById('editRecipeAlert').innerHTML = `
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         Failed to edit recipe. Please try again.
@@ -54,7 +51,6 @@ function editRecipe() {
             }
         })
         .catch(error => {
-            // Fetch error, show error alert
             document.getElementById('editRecipeAlert').innerHTML = `
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     An unexpected error occurred. Please try again.

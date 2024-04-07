@@ -17,6 +17,7 @@ enum Category: string
 
     public static function createFrom(string $value): Category
     {
+        $value = ucfirst(strtolower($value));
         switch ($value) {
             case 'Breakfast':
                 return Category::Breakfast;

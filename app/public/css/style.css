@@ -25,8 +25,36 @@ nav.custom-navbar {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 .recipe-buttons button {
     margin: 5px;
     box-shadow: 2px 2px 5px #888888;
+}
+.recipe-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.recipe-details {
+    flex: 1;
+}
+
+.recipe-buttons {
+    text-align: center;
+}
+
+.recipe-preparation-steps {
+    text-align: center;
 }

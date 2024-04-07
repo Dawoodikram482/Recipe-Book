@@ -35,16 +35,15 @@ class editApi
                 $image = $_FILES['recipeImage'];
                 $responseData = $this->recipecontroller->processImage($image);
 
-                if (!$responseData['success']) {
-                    echo json_encode($responseData);
-                    return;
-                }
-
+//                if (!$responseData['success']) {
+//                    echo json_encode($responseData);
+//                    return;
+//                }
                 $imagetempname = $image['tmp_name'];
                 $imagename = $image['name'];
                 $targetDirectory = "images/";
-                $imageExtension = explode('.', $imagename);
-                $imageNewName = "recipe_book" . end($imageExtension);
+                $imageExtension = pathinfo($imagename, PATHINFO_EXTENSION);
+                $imageNewName =  "recipe_book_" . uniqid() . "." . $imageExtension;
 
                 $result = $this->recipeservice->updateRecipe($recipeId, $title, $ingredients, $steps, $imageNewName, $category);
 
